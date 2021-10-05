@@ -36,6 +36,7 @@ footer {
   width: 100%;
 }
 
+
 img.social {
     margin: 0px 10px;
     width: 20px;
@@ -45,9 +46,20 @@ img.social {
 <body>
   <header></header>
 
-<div>
- <h1>To Do List</h1>
-<input type="text" placeholder="Add a task to the list...">
+<section class="parent-section">
+  <div class="parent">
+    <div class="parent-head">
+       <h1>To Do List</h1>
+        <div class="button1">
+          <button class="button1.1"></button>
+        </div>
+    </div>
+
+    <div class="insert-items">
+      <input type="text" placeholder="Add a task to the list..."/>
+      <button class="addtask">Add</button>
+    </div>
+
  <div>
   <h4>1 item</h4>
     <div>
@@ -58,13 +70,14 @@ img.social {
   <h4>Clear</h4>
  </div>
 </div>
+</section>
 
+<!-- footer -->
   <div>
     <footer>
       <div>
-        <a href="#">Shaina Mulani</a>
+        <a href="https://github.com/shainasm/todolist">Shaina Mulani</a>
       </div>
-
       <div>
        <a href="#">
         <img class="social" src="https://www.svgrepo.com/show/157006/linkedin.svg" alt="linkedin">
@@ -77,13 +90,12 @@ img.social {
        <a href="#">
         <img class="social" src="https://www.svgrepo.com/show/349375/github.svg" alt="github">
        </a>
-
       </div>
+</footer>
+<!-- /footer -->
 
-  </footer>
   </div>
  
-  
-  
+ 
 </body>
 </html>
