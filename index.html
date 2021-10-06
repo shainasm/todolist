@@ -79,7 +79,65 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 40px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
 
+.insert-items input{
+  border: 0px;
+  height:20px;
+  font-size: 1.2rem;
+  flex-grow: 1;
+  margin-left: 15px;
+}
+
+.insert-items input:focus {
+  outline: none;
+  border: none;
+}
+
+.insert-items button {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  border-style: none;
+  flex-grow: 0;
+  font-size: 1.4rem;
+  color: blue;
+  flex-basis: 10%;
+}
+
+/* .addtask{
+  width: 40px;
+} */
+
+.main-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f1f1;
+  border-top-left-radius: 10px; 
+}
+
+.taskbar {
+  display: flex;   
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f1f1;
+  height: 40px;
+  width: 90%;
+  margin: 10px 0px 5px 10px;
+  padding: 5px;
+  color: rgba(0, 0, 0, 0.541);
+}
+
+.apd {
+  color: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 180px;
+  padding: 4px;
 }
 
 .footer {
@@ -116,17 +174,17 @@ img.social {
 
     <div class="insert-items">
       <input type="text" placeholder="Add a task to the list..."/>
-      <button class="addtask">Add</button>
+      <button class="addtask">+</button>
     </div>
 
  <div class="forscroll">
    <div class="main-list">
      <div class="taskbar">
        <h4>1 item</h4>
-        <div class="apc">
+        <div class="apd">
          <button>All</button>
          <button>Pending</button>
-         <button>Completed</button>
+         <button>Done</button>
         </div>
        <button class="clr-button">Clear</button>
       </div>
