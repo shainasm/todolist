@@ -102,14 +102,14 @@ header {
   border-radius: 5px;
   border-style: none;
   flex-grow: 0;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: blue;
   flex-basis: 10%;
 }
 
-/* .addtask{
-  width: 40px;
-} */
+.addtask{
+  cursor: pointer;
+}
 
 .main-list {
   display: flex;
@@ -129,6 +129,7 @@ header {
   margin: 10px 0px 5px 10px;
   padding: 5px;
   color: rgba(0, 0, 0, 0.541);
+  
 }
 
 .apd {
@@ -138,6 +139,64 @@ header {
   justify-content: space-between;
   width: 180px;
   padding: 4px;
+}
+
+.apd button {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.clr-button {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.list-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(195, 195, 195);
+  border-radius: 5px;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  border-style: none;
+  margin: 5px 0px 5px 10px;
+  height: 40px;
+  width: 95%;
+  padding: 5px;
+}
+
+.forscroll {
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.checkbutton {
+  flex-grow: 0;
+  margin-left: 10px;
+}
+
+.item{
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.list-tools {
+  display: flex;
+  flex-grow: 0;
+  justify-content: space-between;
+  width: 40px;
+  font-size: 1.2rem;
 }
 
 .footer {
@@ -196,9 +255,9 @@ img.social {
           <p class="done-circle"></p>
         </div>
 
-        <div class="items">
+        <div class="item">
           <ul>
-            <li>Hii!!!</li>
+            <li>1st Item</li>
           </ul>
         </div>
 
