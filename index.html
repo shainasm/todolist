@@ -56,7 +56,7 @@ header {
   display: flex;
   justify-content: space-between;
   height: 40px;
-  width: 80px;
+  width:70px;
   border-radius: 20px;
   padding: 5px;
 }
@@ -146,6 +146,7 @@ header {
   border-radius: 5px;
   border-style: none;
   cursor: pointer;
+  font-size: 1.1rem;
 }
 
 .clr-button {
@@ -199,7 +200,41 @@ header {
   font-size: 1.2rem;
 }
 
-.footer {
+.checkbutton>.themebutton{
+  font-size: 1.4rem; 
+  /* background: #cf1b6f; */
+  opacity: 50%;
+}
+
+.checkbutton>.themebutton:hover{
+  opacity: 100%;
+}
+
+.list-tools>.tool1{
+  
+  opacity: 50%;
+}
+
+.list-tools>.tool1:hover{
+  color: blue;
+  opacity: 100%;
+}
+
+.list-tools>.tool2{
+  color: rgb(122, 120, 120);
+}
+
+.list-tools>.tool2:hover{
+  color: rgb(0, 0, 0);
+  
+}
+
+.item>ul{
+  color: rgb(122, 120, 120);
+  font-size: 1.1rem;
+}
+
+footer{
   background-color: #f1f1f1;
   color: blueviolet;
   display: flex;
@@ -252,7 +287,7 @@ img.social {
     <div class="list-items">
       <div class="items">
         <div class="checkbutton">
-          <p class="done-circle"></p>
+          <p class="themebutton"></p>
         </div>
 
         <div class="item">
@@ -262,8 +297,8 @@ img.social {
         </div>
 
         <div class="list-tools">
-          <p class="tool1"></p>
-          <p class="tool2"></p>
+          <p class="tool1">$</p>
+          <p class="tool2">X</p>
         </div>
       </div>
     </div>
@@ -271,11 +306,12 @@ img.social {
 </div>
 </section>
 
-  <div>
+ 
     <footer>
       <div>
         <a href="https://github.com/shainasm/todolist">Shaina Mulani</a>
       </div>
+
       <div>
        <a href="#">
         <img class="social" src="https://www.svgrepo.com/show/157006/linkedin.svg" alt="linkedin">
@@ -289,9 +325,8 @@ img.social {
         <img class="social" src="https://www.svgrepo.com/show/349375/github.svg" alt="github">
        </a>
       </div>
-</footer>
-
-  </div>
+    </footer>
+ 
   
  
  
