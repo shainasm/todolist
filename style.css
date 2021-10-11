@@ -8,6 +8,10 @@
   list-style: none;
 }
 
+.dark{
+  background-color: black;
+}
+
 header {
 background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXoDL_xBSfc4vmCNQt5uaR3Jo5HKlczMKxlQhaKCwb0nRWsJY7i8I6ZRuQWYIV04a1H34&usqp=CAU');
 height: 400px;
